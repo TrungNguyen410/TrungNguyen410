@@ -571,7 +571,8 @@ function titles() {
     ["projects", "03", "PROJECTS", 2],
     ["stack", "04", "TECH CUBE", 0],
     ["timeline", "05", "WARP THROUGH TIME", 1],
-    ["activity", "06", "GITHUB IN 3D", 2],
+    ["principles", "06", "HOW I BUILD", 2],
+    ["activity", "07", "GITHUB IN 3D", 0],
   ];
   const css = `.in{animation:bob 5s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}
 .spin{animation:spin 6s linear infinite;transform-box:fill-box;transform-origin:center}@keyframes spin{to{transform:rotate(360deg)}}

@@ -87,7 +87,62 @@ và đang dạy cho website của mình biết **tự tư vấn khách hàng b�
 
 <br/>
 
-<div align="center"><img src="./assets/titles/activity.svg" width="70%" alt="06 — GitHub in 3D" /></div>
+<div align="center"><img src="./assets/titles/principles.svg" width="70%" alt="06 — How I build" /></div>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🎯 Dữ liệu thật, không bịa
+Chatbot chỉ trả lời giá, tồn kho, đơn hàng sau khi gọi công cụ đọc database —
+thiếu dữ liệu thì nói không biết, chứ không đoán.
+
+</td>
+<td width="50%" valign="top">
+
+### 🧩 Clean Architecture
+`routes → controllers → services → repositories → models`: mỗi tầng một việc,
+đổi database hay AI provider không phải sửa cả dự án.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🛟 Luôn có đường lui
+Hết quota Gemini thì chuyển sang chế độ offline rule-based; frontend chạy được
+bằng mock data khi chưa có backend.
+
+</td>
+<td width="50%" valign="top">
+
+### 🧪 Đo trước khi khoe
+Jest cho backend, script `eval:chatbot` chấm chatbot trên bộ câu hỏi mẫu —
+kết quả lưu lại để so sánh giữa các phiên bản.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🐳 Chạy ở đâu cũng được
+Docker Compose dựng đủ MongoDB, backend, frontend chỉ bằng một lệnh;
+biến môi trường tách bạch cho local, Docker và production.
+
+</td>
+<td width="50%" valign="top">
+
+### 📚 Viết tài liệu cho người sau
+README tiếng Việt có hướng dẫn cài đặt, tài liệu phân tích thiết kế và báo cáo
+tiến độ hằng tuần nằm ngay trong repo.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<div align="center"><img src="./assets/titles/activity.svg" width="70%" alt="07 — GitHub in 3D" /></div>
 
 <div align="center">
   <picture>
@@ -95,11 +150,24 @@ và đang dạy cho website của mình biết **tự tư vấn khách hàng b�
     <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate.svg" />
     <img src="./profile-3d-contrib/profile-night-view.svg" width="100%" alt="Lịch contribution dạng 3D isometric" />
   </picture>
+
+  <br/><br/>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/TrungNguyen410/TrungNguyen410/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/TrungNguyen410/TrungNguyen410/output/github-snake.svg" />
+    <img src="https://raw.githubusercontent.com/TrungNguyen410/TrungNguyen410/output/github-snake.svg" width="100%" alt="Con rắn ăn lịch contribution" />
+  </picture>
 </div>
 
 <br/>
 
 <div align="center">
+
+**Cùng nhau build một thứ gì đó thật xịn nhé!**
+
+<a href="mailto:trungnguyen550811@gmail.com"><img src="https://img.shields.io/badge/Say_hi-trungnguyen550811@gmail.com-ff6b9a?style=flat-square&logo=gmail&logoColor=white" alt="Email me" /></a>
+<a href="https://github.com/TrungNguyen410?tab=repositories"><img src="https://img.shields.io/badge/All_repositories-TrungNguyen410-4f8cff?style=flat-square&logo=github&logoColor=white" alt="Repositories" /></a>
 
 <a href="mailto:trungnguyen550811@gmail.com"><img src="./assets/footer.svg" width="100%" alt="Cùng build một thứ gì đó thật xịn nhé! — gửi email cho mình" /></a>
 

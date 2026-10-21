@@ -5,8 +5,8 @@
 @media (prefers-reduced-motion: reduce){*{animation:none!important}}</style>
 <defs><linearGradient id="gem" x1="0" x2="1"><stop offset="0" stop-color="#4f8cff"/><stop offset=".55" stop-color="#9b72f2"/><stop offset="1" stop-color="#ff6b9a"/></linearGradient></defs>
 <g class="in">
-<path d="M269 32C270.7 44.3 270.7 44.3 283 46C270.7 47.7 270.7 47.7 269 60C267.3 47.7 267.3 47.7 255 46C267.3 44.3 267.3 44.3 269 32Z" fill="#ff6b9a" class="spin"/>
-<text x="291" y="58" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="20" font-weight="700" fill="#ff6b9a" opacity=".8">06</text>
+<path d="M269 32C270.7 44.3 270.7 44.3 283 46C270.7 47.7 270.7 47.7 269 60C267.3 47.7 267.3 47.7 255 46C267.3 44.3 267.3 44.3 269 32Z" fill="#4f8cff" class="spin"/>
+<text x="291" y="58" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="20" font-weight="700" fill="#4f8cff" opacity=".8">07</text>
 <text x="331" y="65" fill="#1c1250" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="2">GITHUB IN 3D</text>
 <text x="330.2" y="64" fill="#1c1250" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="2">GITHUB IN 3D</text>
 <text x="329.4" y="63" fill="#1c1250" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="40" font-weight="800" text-anchor="start" letter-spacing="2">GITHUB IN 3D</text>
