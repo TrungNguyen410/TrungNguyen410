@@ -1,0 +1,192 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 460" width="1200" height="460" role="img">
+<style>
+.tw{animation:tw 3.2s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.12}50%{opacity:.9}}
+.led{animation:blink 1.6s steps(2,start) infinite}@keyframes blink{50%{opacity:.2}}
+.bob{animation:bob 6s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+<defs>
+<radialGradient id="bg" cx="72%" cy="38%" r="90%"><stop offset="0" stop-color="#1c1846"/><stop offset=".5" stop-color="#0c0d24"/><stop offset="1" stop-color="#05050d"/></radialGradient>
+<linearGradient id="gem" x1="0" x2="1"><stop offset="0" stop-color="#4f8cff"/><stop offset=".55" stop-color="#9b72f2"/><stop offset="1" stop-color="#ff6b9a"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="20"/></filter>
+<clipPath id="frame"><rect width="1200" height="460" rx="26"/></clipPath></defs>
+<g clip-path="url(#frame)">
+<rect width="1200" height="460" fill="url(#bg)"/>
+<path d="M291.2 373.3C291.7 376.9 291.7 376.9 295.4 377.4C291.7 377.9 291.7 377.9 291.2 381.6C290.7 377.9 290.7 377.9 287 377.4C290.7 376.9 290.7 376.9 291.2 373.3Z" fill="#c9d4ff" class="tw" style="animation-delay:1.47s"/>
+<circle cx="856.8" cy="153.1" r="0.7" fill="#c9d4ff" class="tw" style="animation-delay:2.15s"/>
+<circle cx="187.1" cy="256.9" r="0.9" fill="#c9d4ff" class="tw" style="animation-delay:1.63s"/>
+<circle cx="264.6" cy="30.4" r="1" fill="#c9d4ff" class="tw" style="animation-delay:2.84s"/>
+<circle cx="373.6" cy="262.2" r="1.3" fill="#c9d4ff" class="tw" style="animation-delay:1.47s"/>
+<circle cx="328" cy="50.5" r="1" fill="#c9d4ff" class="tw" style="animation-delay:2.54s"/>
+<circle cx="9.8" cy="357.1" r="1.2" fill="#c9d4ff" class="tw" style="animation-delay:0.55s"/>
+<circle cx="264.7" cy="288.8" r="1.2" fill="#c9d4ff" class="tw" style="animation-delay:1.06s"/>
+<circle cx="896.6" cy="315.3" r="0.8" fill="#c9d4ff" class="tw" style="animation-delay:2.39s"/>
+<path d="M205.6 64.1C206 66.9 206 66.9 208.8 67.3C206 67.7 206 67.7 205.6 70.5C205.2 67.7 205.2 67.7 202.3 67.3C205.2 66.9 205.2 66.9 205.6 64.1Z" fill="#c9d4ff" class="tw" style="animation-delay:0.80s"/>
+<circle cx="813.3" cy="96.2" r="0.8" fill="#c9d4ff" class="tw" style="animation-delay:0.35s"/>
+<circle cx="418.9" cy="68.7" r="0.5" fill="#c9d4ff" class="tw" style="animation-delay:2.70s"/>
+<circle cx="429.6" cy="247.1" r="1.4" fill="#c9d4ff" class="tw" style="animation-delay:1.30s"/>
+<circle cx="909.7" cy="339" r="1.2" fill="#c9d4ff" class="tw" style="animation-delay:1.65s"/>
+<circle cx="991.9" cy="36.5" r="1" fill="#c9d4ff" class="tw" style="animation-delay:0.75s"/>
+<circle cx="194" cy="159.6" r="0.6" fill="#c9d4ff" class="tw" style="animation-delay:0.45s"/>
+<circle cx="1185.5" cy="214" r="1.3" fill="#c9d4ff" class="tw" style="animation-delay:2.04s"/>
+<circle cx="447.8" cy="246.8" r="1.2" fill="#c9d4ff" class="tw" style="animation-delay:0.80s"/>
+<path d="M370.8 275.6C371.5 280.2 371.5 280.2 376 280.8C371.5 281.4 371.5 281.4 370.8 286C370.2 281.4 370.2 281.4 365.7 280.8C370.2 280.2 370.2 280.2 370.8 275.6Z" fill="#c9d4ff" class="tw" style="animation-delay:3.12s"/>
+<circle cx="1031.5" cy="381.5" r="1.6" fill="#c9d4ff" class="tw" style="animation-delay:0.09s"/>
+<circle cx="995.6" cy="387.4" r="0.6" fill="#c9d4ff" class="tw" style="animation-delay:1.77s"/>
+<circle cx="789.1" cy="286.5" r="0.6" fill="#c9d4ff" class="tw" style="animation-delay:0.37s"/>
+<circle cx="581.1" cy="41.1" r="1.2" fill="#c9d4ff" class="tw" style="animation-delay:0.28s"/>
+<circle cx="722.5" cy="73.2" r="0.7" fill="#c9d4ff" class="tw" style="animation-delay:0.71s"/>
+<circle cx="884.5" cy="61.9" r="0.6" fill="#c9d4ff" class="tw" style="animation-delay:3.18s"/>
+<circle cx="1040.4" cy="256.9" r="0.6" fill="#c9d4ff" class="tw" style="animation-delay:1.83s"/>
+<circle cx="634.7" cy="427.2" r="0.7" fill="#c9d4ff" class="tw" style="animation-delay:1.47s"/>
+<path d="M982.8 414.6C983.5 420.2 983.5 420.2 989.1 420.9C983.5 421.7 983.5 421.7 982.8 427.3C982 421.7 982 421.7 976.4 420.9C982 420.2 982 420.2 982.8 414.6Z" fill="#c9d4ff" class="tw" style="animation-delay:0.46s"/>
+<circle cx="645.1" cy="444.9" r="0.7" fill="#c9d4ff" class="tw" style="animation-delay:1.13s"/>
+<circle cx="220.1" cy="209.1" r="0.6" fill="#c9d4ff" class="tw" style="animation-delay:2.29s"/>
+<circle cx="899.3" cy="335.8" r="0.8" fill="#c9d4ff" class="tw" style="animation-delay:2.99s"/>
+<circle cx="627.6" cy="347.6" r="1.2" fill="#c9d4ff" class="tw" style="animation-delay:2.41s"/>
+<circle cx="413.7" cy="84.6" r="0.7" fill="#c9d4ff" class="tw" style="animation-delay:1.20s"/>
+<circle cx="34.1" cy="14.9" r="1.5" fill="#c9d4ff" class="tw" style="animation-delay:0.22s"/>
+<circle cx="1073.6" cy="159" r="1.2" fill="#c9d4ff" class="tw" style="animation-delay:0.35s"/>
+<circle cx="746.9" cy="221.1" r="0.5" fill="#c9d4ff" class="tw" style="animation-delay:1.10s"/>
+<path d="M1045.1 414C1045.7 418.3 1045.7 418.3 1050 418.9C1045.7 419.5 1045.7 419.5 1045.1 423.9C1044.5 419.5 1044.5 419.5 1040.2 418.9C1044.5 418.3 1044.5 418.3 1045.1 414Z" fill="#c9d4ff" class="tw" style="animation-delay:3.12s"/>
+<circle cx="450.3" cy="315.5" r="0.5" fill="#c9d4ff" class="tw" style="animation-delay:1.29s"/>
+<circle cx="562" cy="433" r="1.5" fill="#c9d4ff" class="tw" style="animation-delay:0.55s"/>
+<circle cx="280.2" cy="43.2" r="0.6" fill="#c9d4ff" class="tw" style="animation-delay:1.17s"/>
+<circle cx="887.3" cy="284.7" r="1.4" fill="#c9d4ff" class="tw" style="animation-delay:0.15s"/>
+<circle cx="73.5" cy="250.4" r="0.6" fill="#c9d4ff" class="tw" style="animation-delay:1.76s"/>
+<circle cx="49.9" cy="27" r="0.8" fill="#c9d4ff" class="tw" style="animation-delay:2.18s"/>
+<circle cx="1191.8" cy="398.4" r="1.4" fill="#c9d4ff" class="tw" style="animation-delay:0.75s"/>
+<circle cx="956.7" cy="85.8" r="1.4" fill="#c9d4ff" class="tw" style="animation-delay:0.91s"/>
+<path d="M121 240.3C121.7 245.5 121.7 245.5 127 246.3C121.7 247 121.7 247 121 252.3C120.2 247 120.2 247 115 246.3C120.2 245.5 120.2 245.5 121 240.3Z" fill="#c9d4ff" class="tw" style="animation-delay:0.66s"/>
+<circle cx="678.6" cy="311.9" r="0.5" fill="#c9d4ff" class="tw" style="animation-delay:1.31s"/>
+<circle cx="445.3" cy="182.5" r="0.5" fill="#c9d4ff" class="tw" style="animation-delay:0.45s"/>
+<circle cx="513" cy="442.2" r="0.7" fill="#c9d4ff" class="tw" style="animation-delay:3.14s"/>
+<circle cx="1196.8" cy="205.3" r="1.5" fill="#c9d4ff" class="tw" style="animation-delay:2.46s"/>
+<circle cx="820" cy="129.1" r="1.6" fill="#c9d4ff" class="tw" style="animation-delay:0.42s"/>
+<circle cx="1179.1" cy="311.4" r="1.1" fill="#c9d4ff" class="tw" style="animation-delay:2.80s"/>
+<circle cx="1034.3" cy="379" r="1.5" fill="#c9d4ff" class="tw" style="animation-delay:2.72s"/>
+<circle cx="67.3" cy="454.3" r="1.1" fill="#c9d4ff" class="tw" style="animation-delay:0.36s"/>
+<path d="M52 414.7C52.6 418.7 52.6 418.7 56.6 419.2C52.6 419.8 52.6 419.8 52 423.8C51.5 419.8 51.5 419.8 47.5 419.2C51.5 418.7 51.5 418.7 52 414.7Z" fill="#c9d4ff" class="tw" style="animation-delay:1.45s"/>
+<circle cx="1081.3" cy="70.1" r="1.6" fill="#c9d4ff" class="tw" style="animation-delay:1.98s"/>
+<circle cx="592.2" cy="114.4" r="0.8" fill="#c9d4ff" class="tw" style="animation-delay:2.70s"/>
+<circle cx="835.9" cy="393.4" r="0.6" fill="#c9d4ff" class="tw" style="animation-delay:1.41s"/>
+<circle cx="733.6" cy="110.6" r="0.7" fill="#c9d4ff" class="tw" style="animation-delay:1.97s"/>
+<circle cx="1164.4" cy="360.9" r="0.8" fill="#c9d4ff" class="tw" style="animation-delay:2.50s"/>
+<ellipse cx="880" cy="330" rx="300" ry="80" fill="#6b4dff" opacity=".3" filter="url(#soft)"/>
+<g class="bob">
+<polygon points="609.8,313.2 880,469.2 880,450 609.8,294" fill="#181542" stroke="#4c3fb0" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="1150.2,313.2 880,469.2 880,450 1150.2,294" fill="#100e2c" stroke="#4c3fb0" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="880,138 1150.2,294 880,450 609.8,294" fill="#4a4679" stroke="#4c3fb0" stroke-width="1" stroke-linejoin="round"/>
+<line x1="900.8" y1="150" x2="630.6" y2="306" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/><line x1="859.2" y1="150" x2="1129.4" y2="306" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/>
+<line x1="921.6" y1="162" x2="651.4" y2="318" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/><line x1="838.4" y1="162" x2="1108.6" y2="318" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/>
+<line x1="942.4" y1="174" x2="672.2" y2="330" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/><line x1="817.6" y1="174" x2="1087.8" y2="330" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/>
+<line x1="963.1" y1="186" x2="692.9" y2="342" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/><line x1="796.9" y1="186" x2="1067.1" y2="342" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/>
+<line x1="983.9" y1="198" x2="713.7" y2="354" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/><line x1="776.1" y1="198" x2="1046.3" y2="354" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/>
+<line x1="1004.7" y1="210" x2="734.5" y2="366" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/><line x1="755.3" y1="210" x2="1025.5" y2="366" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/>
+<line x1="1025.5" y1="222" x2="755.3" y2="378" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/><line x1="734.5" y1="222" x2="1004.7" y2="378" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/>
+<line x1="1046.3" y1="234" x2="776.1" y2="390" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/><line x1="713.7" y1="234" x2="983.9" y2="390" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/>
+<line x1="1067.1" y1="246" x2="796.9" y2="402" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/><line x1="692.9" y1="246" x2="963.1" y2="402" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/>
+<line x1="1087.8" y1="258" x2="817.6" y2="414" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/><line x1="672.2" y1="258" x2="942.4" y2="414" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/>
+<line x1="1108.6" y1="270" x2="838.4" y2="426" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/><line x1="651.4" y1="270" x2="921.6" y2="426" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/>
+<line x1="1129.4" y1="282" x2="859.2" y2="438" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/><line x1="630.6" y1="282" x2="900.8" y2="438" stroke="#7d6cf0" stroke-width=".7" opacity=".35"/>
+<path d="M807.3,234 L890.4,282" stroke="#61dafb" stroke-width="2" opacity=".55" stroke-dasharray="5 6"/>
+<circle r="3.8" fill="#a0e9fd" filter="url(#glow)"><animateMotion dur="2.4s" begin="0.00s" repeatCount="indefinite" calcMode="linear" path="M807.3,234 L890.4,282"/></circle>
+<circle r="3.8" fill="#a0e9fd" filter="url(#glow)"><animateMotion dur="2.4s" begin="1.20s" repeatCount="indefinite" calcMode="linear" keyPoints="1;0" keyTimes="0;1" path="M807.3,234 L890.4,282"/></circle>
+<path d="M890.4,282 L1025.5,300" stroke="#5fd068" stroke-width="2" opacity=".55" stroke-dasharray="5 6"/>
+<circle r="3.8" fill="#9fe3a4" filter="url(#glow)"><animateMotion dur="2.4s" begin="0.40s" repeatCount="indefinite" calcMode="linear" path="M890.4,282 L1025.5,300"/></circle>
+<circle r="3.8" fill="#9fe3a4" filter="url(#glow)"><animateMotion dur="2.4s" begin="1.60s" repeatCount="indefinite" calcMode="linear" keyPoints="1;0" keyTimes="0;1" path="M890.4,282 L1025.5,300"/></circle>
+<path d="M890.4,282 L921.6,360" stroke="#b69cff" stroke-width="2" opacity=".55" stroke-dasharray="5 6"/>
+<circle r="3.8" fill="#d3c4ff" filter="url(#glow)"><animateMotion dur="2.4s" begin="0.80s" repeatCount="indefinite" calcMode="linear" path="M890.4,282 L921.6,360"/></circle>
+<circle r="3.8" fill="#d3c4ff" filter="url(#glow)"><animateMotion dur="2.4s" begin="2.00s" repeatCount="indefinite" calcMode="linear" keyPoints="1;0" keyTimes="0;1" path="M890.4,282 L921.6,360"/></circle>
+<path d="M796.9,336 L890.4,282" stroke="#ffb86b" stroke-width="2" opacity=".55" stroke-dasharray="5 6"/>
+<circle r="3.8" fill="#ffd4a6" filter="url(#glow)"><animateMotion dur="2.4s" begin="1.20s" repeatCount="indefinite" calcMode="linear" path="M796.9,336 L890.4,282"/></circle>
+<circle r="3.8" fill="#ffd4a6" filter="url(#glow)"><animateMotion dur="2.4s" begin="2.40s" repeatCount="indefinite" calcMode="linear" path="M796.9,336 L890.4,282"/></circle>
+</g>
+<g class="bob" style="animation-delay:0.0s">
+<ellipse cx="807.3" cy="234" rx="40" ry="18" fill="#61dafb" opacity=".3" filter="url(#soft)"/>
+<polygon points="755.3,226.8 807.3,256.8 807.3,180 755.3,150" fill="#469db5" stroke="#98e7fc" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="859.2,226.8 807.3,256.8 807.3,180 859.2,150" fill="#2f6978" stroke="#98e7fc" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="807.3,120 859.2,150 807.3,180 755.3,150" fill="#7de1fc" stroke="#98e7fc" stroke-width="1" stroke-linejoin="round"/>
+<line x1="758.4" y1="209.4" x2="804.1" y2="235.8" stroke="#2c6271" stroke-width="1.4"/>
+<line x1="758.4" y1="190.2" x2="804.1" y2="216.6" stroke="#2c6271" stroke-width="1.4"/>
+<line x1="758.4" y1="171" x2="804.1" y2="197.4" stroke="#2c6271" stroke-width="1.4"/>
+<circle cx="763.6" cy="222" r="2.2" fill="#ffffff" class="led" style="animation-delay:0.00s"/>
+<circle cx="763.6" cy="202.8" r="2.2" fill="#ffffff" class="led" style="animation-delay:0.37s"/>
+<circle cx="763.6" cy="183.6" r="2.2" fill="#ffffff" class="led" style="animation-delay:0.74s"/>
+<circle cx="763.6" cy="164.4" r="2.2" fill="#ffffff" class="led" style="animation-delay:1.11s"/>
+<text transform="matrix(0.8660254,0.5,-0.8660254,0.5,807.3,150)" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="19" font-weight="800" fill="#1f4650" text-anchor="middle" dominant-baseline="middle">UI</text>
+<line x1="807.3" y1="138" x2="807.3" y2="120" stroke="#61dafb" stroke-width="1.4"/><rect x="761.3" y="96" width="92" height="24" rx="12" fill="#0c0d24" stroke="#61dafb" stroke-width="1.4"/><text x="807.3" y="112.5" text-anchor="middle" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12.5" font-weight="700" fill="#90e5fc">React 19</text>
+</g>
+<g class="bob" style="animation-delay:-1.1s">
+<ellipse cx="890.4" cy="282" rx="40" ry="18" fill="#7ee787" opacity=".3" filter="url(#soft)"/>
+<polygon points="838.4,274.8 890.4,304.8 890.4,199.2 838.4,169.2" fill="#5ba661" stroke="#abefb1" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="942.4,274.8 890.4,304.8 890.4,199.2 942.4,169.2" fill="#3c6f41" stroke="#abefb1" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="890.4,139.2 942.4,169.2 890.4,199.2 838.4,169.2" fill="#95eb9d" stroke="#abefb1" stroke-width="1" stroke-linejoin="round"/>
+<line x1="841.5" y1="250.2" x2="887.3" y2="276.6" stroke="#39683d" stroke-width="1.4"/>
+<line x1="841.5" y1="223.8" x2="887.3" y2="250.2" stroke="#39683d" stroke-width="1.4"/>
+<line x1="841.5" y1="197.4" x2="887.3" y2="223.8" stroke="#39683d" stroke-width="1.4"/>
+<circle cx="846.7" cy="266.4" r="2.2" fill="#ffffff" class="led" style="animation-delay:0.00s"/>
+<circle cx="846.7" cy="240" r="2.2" fill="#ffffff" class="led" style="animation-delay:0.37s"/>
+<circle cx="846.7" cy="213.6" r="2.2" fill="#ffffff" class="led" style="animation-delay:0.74s"/>
+<circle cx="846.7" cy="187.2" r="2.2" fill="#ffffff" class="led" style="animation-delay:1.11s"/>
+<text transform="matrix(0.8660254,0.5,-0.8660254,0.5,890.4,169.2)" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="15" font-weight="800" fill="#284a2b" text-anchor="middle" dominant-baseline="middle">API</text>
+<line x1="890.4" y1="157.2" x2="890.4" y2="139.2" stroke="#7ee787" stroke-width="1.4"/><rect x="844.4" y="115.2" width="92" height="24" rx="12" fill="#0c0d24" stroke="#7ee787" stroke-width="1.4"/><text x="890.4" y="131.7" text-anchor="middle" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12.5" font-weight="700" fill="#a5eeab">Express 5</text>
+</g>
+<g class="bob" style="animation-delay:-2.2s">
+<ellipse cx="1025.5" cy="300" rx="40" ry="18" fill="#5fd068" opacity=".3" filter="url(#soft)"/>
+<polygon points="973.5,292.8 1025.5,322.8 1025.5,260.4 973.5,230.4" fill="#44964b" stroke="#97e09d" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="1077.5,292.8 1025.5,322.8 1025.5,260.4 1077.5,230.4" fill="#2e6432" stroke="#97e09d" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="1025.5,200.4 1077.5,230.4 1025.5,260.4 973.5,230.4" fill="#7cd883" stroke="#97e09d" stroke-width="1" stroke-linejoin="round"/>
+<line x1="976.6" y1="273.8" x2="1022.4" y2="300.2" stroke="#2b5e2f" stroke-width="1.4"/>
+<line x1="976.6" y1="253" x2="1022.4" y2="279.4" stroke="#2b5e2f" stroke-width="1.4"/>
+<circle cx="981.8" cy="287.2" r="2.2" fill="#ffffff" class="led" style="animation-delay:0.00s"/>
+<circle cx="981.8" cy="266.4" r="2.2" fill="#ffffff" class="led" style="animation-delay:0.37s"/>
+<circle cx="981.8" cy="245.6" r="2.2" fill="#ffffff" class="led" style="animation-delay:0.74s"/>
+<text transform="matrix(0.8660254,0.5,-0.8660254,0.5,1025.5,230.4)" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="19" font-weight="800" fill="#1e4321" text-anchor="middle" dominant-baseline="middle">DB</text>
+<line x1="1025.5" y1="218.4" x2="1025.5" y2="200.4" stroke="#5fd068" stroke-width="1.4"/><rect x="979.5" y="176.4" width="92" height="24" rx="12" fill="#0c0d24" stroke="#5fd068" stroke-width="1.4"/><text x="1025.5" y="192.9" text-anchor="middle" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12.5" font-weight="700" fill="#8fde95">MongoDB</text>
+</g>
+<g class="bob" style="animation-delay:-3.3s">
+<ellipse cx="921.6" cy="360" rx="40" ry="18" fill="#b69cff" opacity=".3" filter="url(#soft)"/>
+<polygon points="869.6,352.8 921.6,382.8 921.6,296.4 869.6,266.4" fill="#8370b8" stroke="#d0bfff" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="973.5,352.8 921.6,382.8 921.6,296.4 973.5,266.4" fill="#574b7a" stroke="#d0bfff" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="921.6,236.4 973.5,266.4 921.6,296.4 869.6,266.4" fill="#c3aeff" stroke="#d0bfff" stroke-width="1" stroke-linejoin="round"/>
+<line x1="872.7" y1="333" x2="918.5" y2="359.4" stroke="#524673" stroke-width="1.4"/>
+<line x1="872.7" y1="311.4" x2="918.5" y2="337.8" stroke="#524673" stroke-width="1.4"/>
+<line x1="872.7" y1="289.8" x2="918.5" y2="316.2" stroke="#524673" stroke-width="1.4"/>
+<circle cx="877.9" cy="346.8" r="2.2" fill="#ffffff" class="led" style="animation-delay:0.00s"/>
+<circle cx="877.9" cy="325.2" r="2.2" fill="#ffffff" class="led" style="animation-delay:0.37s"/>
+<circle cx="877.9" cy="303.6" r="2.2" fill="#ffffff" class="led" style="animation-delay:0.74s"/>
+<circle cx="877.9" cy="282" r="2.2" fill="#ffffff" class="led" style="animation-delay:1.11s"/>
+<text transform="matrix(0.8660254,0.5,-0.8660254,0.5,921.6,266.4)" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="19" font-weight="800" fill="#3a3252" text-anchor="middle" dominant-baseline="middle">AI</text>
+<line x1="921.6" y1="254.4" x2="921.6" y2="236.4" stroke="#b69cff" stroke-width="1.4"/><rect x="875.6" y="212.4" width="92" height="24" rx="12" fill="#0c0d24" stroke="#b69cff" stroke-width="1.4"/><text x="921.6" y="228.9" text-anchor="middle" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12.5" font-weight="700" fill="#ccbaff">Gemini</text>
+</g>
+<g class="bob" style="animation-delay:-4.4s">
+<ellipse cx="796.9" cy="336" rx="40" ry="18" fill="#ffb86b" opacity=".3" filter="url(#soft)"/>
+<polygon points="744.9,328.8 796.9,358.8 796.9,315.6 744.9,285.6" fill="#b8844d" stroke="#ffd19f" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="848.8,328.8 796.9,358.8 796.9,315.6 848.8,285.6" fill="#7a5833" stroke="#ffd19f" stroke-width="1" stroke-linejoin="round"/>
+<polygon points="796.9,255.6 848.8,285.6 796.9,315.6 744.9,285.6" fill="#ffc586" stroke="#ffd19f" stroke-width="1" stroke-linejoin="round"/>
+<line x1="748" y1="316.2" x2="793.7" y2="342.6" stroke="#735330" stroke-width="1.4"/>
+<line x1="748" y1="301.8" x2="793.7" y2="328.2" stroke="#735330" stroke-width="1.4"/>
+<circle cx="753.2" cy="326.4" r="2.2" fill="#ffffff" class="led" style="animation-delay:0.00s"/>
+<circle cx="753.2" cy="312" r="2.2" fill="#ffffff" class="led" style="animation-delay:0.37s"/>
+<circle cx="753.2" cy="297.6" r="2.2" fill="#ffffff" class="led" style="animation-delay:0.74s"/>
+<text transform="matrix(0.8660254,0.5,-0.8660254,0.5,796.9,285.6)" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="15" font-weight="800" fill="#523b22" text-anchor="middle" dominant-baseline="middle">PAY</text>
+<line x1="796.9" y1="273.6" x2="796.9" y2="255.6" stroke="#ffb86b" stroke-width="1.4"/><rect x="750.9" y="231.6" width="92" height="24" rx="12" fill="#0c0d24" stroke="#ffb86b" stroke-width="1.4"/><text x="796.9" y="248.1" text-anchor="middle" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12.5" font-weight="700" fill="#ffcd97">SePay</text>
+</g>
+<rect x="56" y="52" width="252" height="28" rx="14" fill="#7ee787" fill-opacity=".1" stroke="#7ee787" stroke-opacity=".55"/><circle cx="74" cy="66" r="4.5" fill="#7ee787" class="led"/><text x="86" y="71" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12.5" fill="#a8f0b9">ĐỒ ÁN CHUYÊN NGÀNH · 2026</text>
+<text x="60.8" y="142" fill="#26145a" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="800" text-anchor="start" >PhoneShopAI</text>
+<text x="60" y="141" fill="#26145a" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="800" text-anchor="start" >PhoneShopAI</text>
+<text x="59.2" y="140" fill="#26145a" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="800" text-anchor="start" >PhoneShopAI</text>
+<text x="58.4" y="139" fill="#26145a" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="800" text-anchor="start" >PhoneShopAI</text>
+<text x="57.6" y="138" fill="#26145a" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="800" text-anchor="start" >PhoneShopAI</text>
+<text x="56.8" y="137" fill="#26145a" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="800" text-anchor="start" >PhoneShopAI</text>
+<text x="56" y="136" fill="url(#gem)" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="52" font-weight="800" text-anchor="start" >PhoneShopAI</text>
+<text x="56" y="174" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="600" fill="#eef0ff">Website bán điện thoại + Chatbot AI tư vấn khách hàng</text>
+<path d="M66 209C67 216 67 216 74 217C67 218 67 218 66 225C65 218 65 218 58 217C65 216 65 216 66 209Z" fill="#b69cff"/><text x="86" y="222" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#b69cff">Gemini function calling</text><text x="86" y="242" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12.5" fill="#9aa6e0">giá, tồn kho, đơn hàng lấy từ DB thật — không bịa</text>
+<path d="M66 259C67 266 67 266 74 267C67 268 67 268 66 275C65 268 65 268 58 267C65 266 65 266 66 259Z" fill="#61dafb"/><text x="86" y="272" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#61dafb">Trả lời streaming (SSE)</text><text x="86" y="292" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12.5" fill="#9aa6e0">có chế độ offline rule-based khi hết quota</text>
+<path d="M66 309C67 316 67 316 74 317C67 318 67 318 66 325C65 318 65 318 58 317C65 316 65 316 66 309Z" fill="#ffb86b"/><text x="86" y="322" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#ffb86b">Thanh toán tự động</text><text x="86" y="342" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12.5" fill="#9aa6e0">SePay webhook đối soát chuyển khoản, cùng VNPay</text>
+<path d="M66 359C67 366 67 366 74 367C67 368 67 368 66 375C65 368 65 368 58 367C65 366 65 366 66 359Z" fill="#7ee787"/><text x="86" y="372" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="16" font-weight="700" fill="#7ee787">Trang quản trị chatbot</text><text x="86" y="392" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12.5" fill="#9aa6e0">bật/tắt, lời chào, câu gợi ý, kho kiến thức</text>
+<text x="56" y="434" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12.5" fill="#6b76b8">React 19 · Vite 8 · Express 5 · MongoDB 7 · Jest · Docker Compose</text>
+</g><rect x="1" y="1" width="1198" height="458" rx="25" fill="none" stroke="#2f2f6e" stroke-width="2"/>
+</svg>

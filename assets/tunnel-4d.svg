@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" width="1200" height="500" role="img">
+<style>
+.tw{animation:tw 3.2s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.12}50%{opacity:.9}}
+.led{animation:blink 1.6s steps(2,start) infinite}@keyframes blink{50%{opacity:.2}}
+.bob{animation:bob 6s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+
+.ring{animation:zoom 10s cubic-bezier(.55,0,1,.45) infinite;transform-origin:600px 150px}
+@keyframes zoom{0%{transform:scale(.03);opacity:0}15%{opacity:.7}100%{transform:scale(1.5);opacity:.05}}
+.flow{animation:flow 2.4s linear infinite}@keyframes flow{to{stroke-dashoffset:-36}}
+.ping{animation:ping 3.6s ease-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes ping{0%{opacity:.9;transform:scale(.5)}70%,100%{opacity:0;transform:scale(2.6)}}
+</style>
+<defs>
+<radialGradient id="bg" cx="72%" cy="38%" r="90%"><stop offset="0" stop-color="#1c1846"/><stop offset=".5" stop-color="#0c0d24"/><stop offset="1" stop-color="#05050d"/></radialGradient>
+<linearGradient id="gem" x1="0" x2="1"><stop offset="0" stop-color="#4f8cff"/><stop offset=".55" stop-color="#9b72f2"/><stop offset="1" stop-color="#ff6b9a"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="20"/></filter>
+<clipPath id="frame"><rect width="1200" height="500" rx="26"/></clipPath>
+<radialGradient id="core" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#fff" stop-opacity=".9"/><stop offset=".25" stop-color="#9b72f2" stop-opacity=".6"/><stop offset="1" stop-color="#9b72f2" stop-opacity="0"/></radialGradient>
+<linearGradient id="wl" gradientUnits="userSpaceOnUse" x1="600" y1="150" x2="646" y2="450"><stop offset="0" stop-color="#4f8cff" stop-opacity=".3"/><stop offset=".6" stop-color="#9b72f2"/><stop offset="1" stop-color="#ff6b9a"/></linearGradient></defs>
+<g clip-path="url(#frame)">
+<rect width="1200" height="500" fill="url(#bg)"/>
+<path d="M302.3 495C302.8 498.3 302.8 498.3 306.1 498.7C302.8 499.2 302.8 499.2 302.3 502.5C301.9 499.2 301.9 499.2 298.6 498.7C301.9 498.3 301.9 498.3 302.3 495Z" fill="#c9d4ff" class="tw" style="animation-delay:2.86s"/>
+<circle cx="851" cy="139" r="0.7" fill="#c9d4ff" class="tw" style="animation-delay:0.05s"/>
+<circle cx="438.1" cy="468.6" r="1.4" fill="#c9d4ff" class="tw" style="animation-delay:1.28s"/>
+<circle cx="798.2" cy="454.8" r="1.2" fill="#c9d4ff" class="tw" style="animation-delay:1.18s"/>
+<circle cx="1184.5" cy="467.4" r="0.5" fill="#c9d4ff" class="tw" style="animation-delay:2.00s"/>
+<circle cx="1031.3" cy="308.8" r="0.7" fill="#c9d4ff" class="tw" style="animation-delay:2.82s"/>
+<circle cx="990.9" cy="189.8" r="0.6" fill="#c9d4ff" class="tw" style="animation-delay:1.78s"/>
+<circle cx="788.5" cy="221.7" r="0.9" fill="#c9d4ff" class="tw" style="animation-delay:1.39s"/>
+<circle cx="1040" cy="119.5" r="1" fill="#c9d4ff" class="tw" style="animation-delay:0.91s"/>
+<path d="M874.9 431.9C875.5 436.6 875.5 436.6 880.2 437.2C875.5 437.8 875.5 437.8 874.9 442.5C874.3 437.8 874.3 437.8 869.6 437.2C874.3 436.6 874.3 436.6 874.9 431.9Z" fill="#c9d4ff" class="tw" style="animation-delay:2.60s"/>
+<circle cx="309.3" cy="280.1" r="1.2" fill="#c9d4ff" class="tw" style="animation-delay:1.72s"/>
+<circle cx="1012.1" cy="63.9" r="1.4" fill="#c9d4ff" class="tw" style="animation-delay:1.19s"/>
+<circle cx="608.1" cy="17.7" r="1" fill="#c9d4ff" class="tw" style="animation-delay:0.08s"/>
+<circle cx="1162.4" cy="248.2" r="1" fill="#c9d4ff" class="tw" style="animation-delay:1.73s"/>
+<circle cx="1188.8" cy="314.1" r="1.5" fill="#c9d4ff" class="tw" style="animation-delay:1.81s"/>
+<circle cx="827.6" cy="377.8" r="1.4" fill="#c9d4ff" class="tw" style="animation-delay:0.42s"/>
+<circle cx="934" cy="131.6" r="0.7" fill="#c9d4ff" class="tw" style="animation-delay:0.25s"/>
+<circle cx="1123.9" cy="317.9" r="1.6" fill="#c9d4ff" class="tw" style="animation-delay:1.42s"/>
+<path d="M918 285.6C918.5 288.7 918.5 288.7 921.6 289.1C918.5 289.5 918.5 289.5 918 292.6C917.6 289.5 917.6 289.5 914.5 289.1C917.6 288.7 917.6 288.7 918 285.6Z" fill="#c9d4ff" class="tw" style="animation-delay:1.08s"/>
+<circle cx="30.5" cy="177.2" r="1.5" fill="#c9d4ff" class="tw" style="animation-delay:0.70s"/>
+<circle cx="143.7" cy="369" r="0.7" fill="#c9d4ff" class="tw" style="animation-delay:1.83s"/>
+<circle cx="14.3" cy="106" r="1.4" fill="#c9d4ff" class="tw" style="animation-delay:1.17s"/>
+<circle cx="54" cy="155.9" r="1.3" fill="#c9d4ff" class="tw" style="animation-delay:2.73s"/>
+<circle cx="428.6" cy="125" r="1.5" fill="#c9d4ff" class="tw" style="animation-delay:1.67s"/>
+<circle cx="1018.9" cy="106.5" r="1" fill="#c9d4ff" class="tw" style="animation-delay:1.03s"/>
+<circle cx="1087.8" cy="486.3" r="1.2" fill="#c9d4ff" class="tw" style="animation-delay:1.38s"/>
+<circle cx="397" cy="350.3" r="0.5" fill="#c9d4ff" class="tw" style="animation-delay:0.66s"/>
+<path d="M216.6 58.6C217.2 63.6 217.2 63.6 222.2 64.3C217.2 64.9 217.2 64.9 216.6 69.9C215.9 64.9 215.9 64.9 210.9 64.3C215.9 63.6 215.9 63.6 216.6 58.6Z" fill="#c9d4ff" class="tw" style="animation-delay:0.35s"/>
+<circle cx="572.3" cy="221.7" r="1.6" fill="#c9d4ff" class="tw" style="animation-delay:2.12s"/>
+<circle cx="1173.6" cy="278.8" r="0.6" fill="#c9d4ff" class="tw" style="animation-delay:2.72s"/>
+<circle cx="565.9" cy="323.9" r="1.5" fill="#c9d4ff" class="tw" style="animation-delay:1.35s"/>
+<circle cx="351.4" cy="49.4" r="1" fill="#c9d4ff" class="tw" style="animation-delay:0.12s"/>
+<circle cx="22.5" cy="123.4" r="1.3" fill="#c9d4ff" class="tw" style="animation-delay:0.82s"/>
+<circle cx="650.2" cy="280.3" r="1.3" fill="#c9d4ff" class="tw" style="animation-delay:2.39s"/>
+<circle cx="1172.7" cy="75.9" r="0.7" fill="#c9d4ff" class="tw" style="animation-delay:0.81s"/>
+<circle cx="127.2" cy="377.5" r="1.2" fill="#c9d4ff" class="tw" style="animation-delay:0.60s"/>
+<path d="M369 277.3C369.8 283 369.8 283 375.4 283.8C369.8 284.5 369.8 284.5 369 290.2C368.2 284.5 368.2 284.5 362.5 283.8C368.2 283 368.2 283 369 277.3Z" fill="#c9d4ff" class="tw" style="animation-delay:2.87s"/>
+<circle cx="220.9" cy="296" r="0.6" fill="#c9d4ff" class="tw" style="animation-delay:3.03s"/>
+<circle cx="398" cy="184.2" r="0.7" fill="#c9d4ff" class="tw" style="animation-delay:3.16s"/>
+<circle cx="1150.1" cy="119.6" r="1.6" fill="#c9d4ff" class="tw" style="animation-delay:0.16s"/>
+<circle cx="366.9" cy="269.1" r="0.9" fill="#c9d4ff" class="tw" style="animation-delay:1.07s"/>
+<circle cx="88.4" cy="170.7" r="0.7" fill="#c9d4ff" class="tw" style="animation-delay:2.62s"/>
+<circle cx="365.4" cy="336.2" r="1.1" fill="#c9d4ff" class="tw" style="animation-delay:0.91s"/>
+<circle cx="513.3" cy="152" r="1.1" fill="#c9d4ff" class="tw" style="animation-delay:1.79s"/>
+<circle cx="502.4" cy="271.2" r="1.3" fill="#c9d4ff" class="tw" style="animation-delay:0.24s"/>
+<path d="M330.2 314.4C330.9 319.1 330.9 319.1 335.6 319.8C330.9 320.4 330.9 320.4 330.2 325.2C329.6 320.4 329.6 320.4 324.8 319.8C329.6 319.1 329.6 319.1 330.2 314.4Z" fill="#c9d4ff" class="tw" style="animation-delay:0.20s"/>
+<circle cx="317.3" cy="360.9" r="0.9" fill="#c9d4ff" class="tw" style="animation-delay:3.08s"/>
+<circle cx="772.1" cy="187.4" r="0.6" fill="#c9d4ff" class="tw" style="animation-delay:2.86s"/>
+<circle cx="967.5" cy="138.5" r="0.9" fill="#c9d4ff" class="tw" style="animation-delay:0.66s"/>
+<circle cx="73.4" cy="261" r="1.4" fill="#c9d4ff" class="tw" style="animation-delay:1.70s"/>
+<circle cx="589.2" cy="259.2" r="0.8" fill="#c9d4ff" class="tw" style="animation-delay:2.64s"/>
+<circle cx="719.2" cy="306" r="1.2" fill="#c9d4ff" class="tw" style="animation-delay:0.91s"/>
+<circle cx="835" cy="407.6" r="0.6" fill="#c9d4ff" class="tw" style="animation-delay:0.63s"/>
+<circle cx="269.6" cy="145.1" r="0.6" fill="#c9d4ff" class="tw" style="animation-delay:0.15s"/>
+<path d="M584.9 231.1C585.5 235.4 585.5 235.4 589.8 236C585.5 236.5 585.5 236.5 584.9 240.8C584.3 236.5 584.3 236.5 580 236C584.3 235.4 584.3 235.4 584.9 231.1Z" fill="#c9d4ff" class="tw" style="animation-delay:1.48s"/>
+<circle cx="558.9" cy="487.1" r="1.5" fill="#c9d4ff" class="tw" style="animation-delay:2.70s"/>
+<circle cx="833.6" cy="334.2" r="0.7" fill="#c9d4ff" class="tw" style="animation-delay:2.32s"/>
+<circle cx="470" cy="287.6" r="1" fill="#c9d4ff" class="tw" style="animation-delay:0.68s"/>
+<circle cx="351.8" cy="230.7" r="1.2" fill="#c9d4ff" class="tw" style="animation-delay:0.27s"/>
+<circle cx="1083.1" cy="140.2" r="0.9" fill="#c9d4ff" class="tw" style="animation-delay:1.18s"/>
+<circle cx="123" cy="424.5" r="0.6" fill="#c9d4ff" class="tw" style="animation-delay:1.51s"/>
+<circle cx="400.5" cy="199.7" r="0.6" fill="#c9d4ff" class="tw" style="animation-delay:0.69s"/>
+<circle cx="955.4" cy="449.1" r="1.1" fill="#c9d4ff" class="tw" style="animation-delay:0.98s"/>
+<path d="M445.6 129.1C446.4 135.3 446.4 135.3 452.5 136.1C446.4 136.9 446.4 136.9 445.6 143.1C444.7 136.9 444.7 136.9 438.6 136.1C444.7 135.3 444.7 135.3 445.6 129.1Z" fill="#c9d4ff" class="tw" style="animation-delay:0.46s"/>
+<circle cx="268.4" cy="466.6" r="1.6" fill="#c9d4ff" class="tw" style="animation-delay:3.04s"/>
+<circle cx="336.7" cy="119.8" r="1.4" fill="#c9d4ff" class="tw" style="animation-delay:2.08s"/>
+<circle cx="54.7" cy="394.2" r="0.7" fill="#c9d4ff" class="tw" style="animation-delay:3.16s"/>
+<circle cx="537.1" cy="338.3" r="1.2" fill="#c9d4ff" class="tw" style="animation-delay:2.47s"/>
+<circle cx="816.3" cy="61.3" r="1" fill="#c9d4ff" class="tw" style="animation-delay:0.99s"/>
+<circle cx="278.6" cy="44.3" r="1.5" fill="#c9d4ff" class="tw" style="animation-delay:1.05s"/>
+<g stroke="#5b4fd6" stroke-opacity=".18"><line x1="600" y1="150" x2="1500" y2="150"/><line x1="600" y1="150" x2="1477.4" y2="243.5"/><line x1="600" y1="150" x2="1410.9" y2="332.2"/><line x1="600" y1="150" x2="1303.6" y2="411.9"/><line x1="600" y1="150" x2="1161.1" y2="478.4"/><line x1="600" y1="150" x2="990.5" y2="528.4"/><line x1="600" y1="150" x2="800.3" y2="559.5"/><line x1="600" y1="150" x2="600" y2="570"/><line x1="600" y1="150" x2="399.7" y2="559.5"/><line x1="600" y1="150" x2="209.5" y2="528.4"/><line x1="600" y1="150" x2="38.9" y2="478.4"/><line x1="600" y1="150" x2="-103.6" y2="411.9"/><line x1="600" y1="150" x2="-210.9" y2="332.2"/><line x1="600" y1="150" x2="-277.4" y2="243.5"/><line x1="600" y1="150" x2="-300" y2="150"/><line x1="600" y1="150" x2="-277.4" y2="56.5"/><line x1="600" y1="150" x2="-210.9" y2="-32.2"/><line x1="600" y1="150" x2="-103.6" y2="-111.9"/><line x1="600" y1="150" x2="38.9" y2="-178.4"/><line x1="600" y1="150" x2="209.5" y2="-228.4"/><line x1="600" y1="150" x2="399.7" y2="-259.5"/><line x1="600" y1="150" x2="600" y2="-270"/><line x1="600" y1="150" x2="800.3" y2="-259.5"/><line x1="600" y1="150" x2="990.5" y2="-228.4"/><line x1="600" y1="150" x2="1161.1" y2="-178.4"/><line x1="600" y1="150" x2="1303.6" y2="-111.9"/><line x1="600" y1="150" x2="1410.9" y2="-32.2"/><line x1="600" y1="150" x2="1477.4" y2="56.5"/></g>
+<rect x="80" y="-70" width="1040" height="440" rx="200" fill="none" stroke="#4f8cff" stroke-width="2" class="ring" style="animation-delay:0.00s"/>
+<rect x="80" y="-70" width="1040" height="440" rx="200" fill="none" stroke="#9b72f2" stroke-width="2" class="ring" style="animation-delay:-1.00s"/>
+<rect x="80" y="-70" width="1040" height="440" rx="200" fill="none" stroke="#ff6b9a" stroke-width="2" class="ring" style="animation-delay:-2.00s"/>
+<rect x="80" y="-70" width="1040" height="440" rx="200" fill="none" stroke="#4f8cff" stroke-width="2" class="ring" style="animation-delay:-3.00s"/>
+<rect x="80" y="-70" width="1040" height="440" rx="200" fill="none" stroke="#9b72f2" stroke-width="2" class="ring" style="animation-delay:-4.00s"/>
+<rect x="80" y="-70" width="1040" height="440" rx="200" fill="none" stroke="#ff6b9a" stroke-width="2" class="ring" style="animation-delay:-5.00s"/>
+<rect x="80" y="-70" width="1040" height="440" rx="200" fill="none" stroke="#4f8cff" stroke-width="2" class="ring" style="animation-delay:-6.00s"/>
+<rect x="80" y="-70" width="1040" height="440" rx="200" fill="none" stroke="#9b72f2" stroke-width="2" class="ring" style="animation-delay:-7.00s"/>
+<rect x="80" y="-70" width="1040" height="440" rx="200" fill="none" stroke="#ff6b9a" stroke-width="2" class="ring" style="animation-delay:-8.00s"/>
+<rect x="80" y="-70" width="1040" height="440" rx="200" fill="none" stroke="#4f8cff" stroke-width="2" class="ring" style="animation-delay:-9.00s"/>
+<circle cx="600" cy="150" r="60" fill="url(#core)"/>
+<path d="M600 150C598.3 161 587.3 199.4 589.9 216C592.4 232.6 617 238.3 615.2 249.4C613.5 260.6 577.9 271.7 579.6 282.9C581.3 294 627.2 305.1 625.5 316.3C623.8 327.4 567.7 338.6 569.4 349.7C571.1 360.9 637.5 372 635.7 383.1C634 394.3 557.4 405.4 559.1 416.6C560.8 427.7 631.5 444.4 646 450" fill="none" stroke="url(#wl)" stroke-width="3" stroke-linecap="round" stroke-dasharray="10 8" class="flow"/>
+<circle r="6" fill="#fff" filter="url(#glow)"><animateMotion dur="7s" repeatCount="indefinite" path="M600 150C598.3 161 587.3 199.4 589.9 216C592.4 232.6 617 238.3 615.2 249.4C613.5 260.6 577.9 271.7 579.6 282.9C581.3 294 627.2 305.1 625.5 316.3C623.8 327.4 567.7 338.6 569.4 349.7C571.1 360.9 637.5 372 635.7 383.1C634 394.3 557.4 405.4 559.1 416.6C560.8 427.7 631.5 444.4 646 450"/></circle>
+<path d="M600 150L270 500M600 150L930 500" stroke="#a9b4ff" stroke-opacity=".35" stroke-width="1.5"/>
+<circle cx="589.9" cy="216" r="11.9" fill="none" stroke="#9aa6e0" stroke-width="2" class="ping" style="animation-delay:0.00s"/><path d="M589.9 206.2C591.1 214.8 591.1 214.8 599.7 216C591.1 217.2 591.1 217.2 589.9 225.8C588.7 217.2 588.7 217.2 580.1 216C588.7 214.8 588.7 214.8 589.9 206.2Z" fill="#9aa6e0" filter="url(#glow)"/><text x="570" y="203.9" text-anchor="end" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="8.9" fill="#9aa6e0">10 / 2023</text><text x="570" y="220.5" text-anchor="end" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="12.8" font-weight="800" fill="#f2f4ff">Hello, GitHub</text><text x="570" y="228.2" text-anchor="end" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="8.9" fill="#9aa6e0">C++ · repo đầu tiên</text>
+<circle cx="615.2" cy="249.4" r="13.3" fill="none" stroke="#3ef0c0" stroke-width="2" class="ping" style="animation-delay:0.45s"/><path d="M615.2 237.8C616.6 248 616.6 248 626.9 249.4C616.6 250.8 616.6 250.8 615.2 261.1C613.8 250.8 613.8 250.8 603.6 249.4C613.8 248 613.8 248 615.2 237.8Z" fill="#3ef0c0" filter="url(#glow)"/><text x="636.6" y="236.5" text-anchor="start" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="9.3" fill="#9aa6e0">03 / 2024</text><text x="636.6" y="254.2" text-anchor="start" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="13.7" font-weight="800" fill="#f2f4ff">CTDL</text><text x="636.6" y="262.9" text-anchor="start" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="9.3" fill="#3ef0c0">cấu trúc dữ liệu · C++</text>
+<circle cx="579.6" cy="282.9" r="14.8" fill="none" stroke="#5fd068" stroke-width="2" class="ping" style="animation-delay:0.90s"/><path d="M579.6 269.4C581.2 281.2 581.2 281.2 593.1 282.9C581.2 284.5 581.2 284.5 579.6 296.3C578 284.5 578 284.5 566.2 282.9C578 281.2 578 281.2 579.6 269.4Z" fill="#5fd068" filter="url(#glow)"/><text x="556.9" y="269" text-anchor="end" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="9.8" fill="#9aa6e0">11 / 2024</text><text x="556.9" y="287.9" text-anchor="end" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14.5" font-weight="800" fill="#f2f4ff">CSDL</text><text x="556.9" y="297.5" text-anchor="end" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="9.8" fill="#5fd068">cơ sở dữ liệu</text>
+<circle cx="625.5" cy="316.3" r="16.2" fill="none" stroke="#ffb86b" stroke-width="2" class="ping" style="animation-delay:1.35s"/><path d="M625.5 301C627.3 314.5 627.3 314.5 640.8 316.3C627.3 318.1 627.3 318.1 625.5 331.5C623.7 318.1 623.7 318.1 610.2 316.3C623.7 314.5 623.7 314.5 625.5 301Z" fill="#ffb86b" filter="url(#glow)"/><text x="649.7" y="301.6" text-anchor="start" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="10.2" fill="#9aa6e0">11 / 2025</text><text x="649.7" y="321.7" text-anchor="start" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15.4" font-weight="800" fill="#f2f4ff">Cửa Hàng Tin Học</text><text x="649.7" y="332.1" text-anchor="start" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="10.2" fill="#ffb86b">đồ án cơ sở ngành</text>
+<circle cx="569.4" cy="349.7" r="17.7" fill="none" stroke="#ff8a5c" stroke-width="2" class="ping" style="animation-delay:1.80s"/><path d="M569.4 332.6C571.4 347.7 571.4 347.7 586.4 349.7C571.4 351.8 571.4 351.8 569.4 366.8C567.3 351.8 567.3 351.8 552.3 349.7C567.3 347.7 567.3 347.7 569.4 332.6Z" fill="#ff8a5c" filter="url(#glow)"/><text x="543.7" y="334.2" text-anchor="end" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="10.7" fill="#9aa6e0">04 / 2026</text><text x="543.7" y="355.4" text-anchor="end" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="16.3" font-weight="800" fill="#f2f4ff">Tom &amp; Jerry Spike</text><text x="543.7" y="366.8" text-anchor="end" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="10.7" fill="#ff8a5c">mini web game</text>
+<circle cx="635.7" cy="383.1" r="19.1" fill="none" stroke="#4f8cff" stroke-width="2" class="ping" style="animation-delay:2.25s"/><path d="M635.7 364.3C638 380.9 638 380.9 654.6 383.1C638 385.4 638 385.4 635.7 402C633.5 385.4 633.5 385.4 616.9 383.1C633.5 380.9 633.5 380.9 635.7 364.3Z" fill="#4f8cff" filter="url(#glow)"/><text x="662.9" y="366.8" text-anchor="start" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="11.1" fill="#9aa6e0">06 / 2026</text><text x="662.9" y="389.2" text-anchor="start" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="17.2" font-weight="800" fill="#f2f4ff">TechPhone Store</text><text x="662.9" y="401.4" text-anchor="start" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="11.1" fill="#4f8cff">React · Express · MongoDB</text>
+<circle cx="559.1" cy="416.6" r="20.6" fill="none" stroke="#b69cff" stroke-width="2" class="ping" style="animation-delay:2.70s"/><path d="M559.1 395.9C561.6 414.1 561.6 414.1 579.8 416.6C561.6 419.1 561.6 419.1 559.1 437.3C556.6 419.1 556.6 419.1 538.4 416.6C556.6 414.1 556.6 414.1 559.1 395.9Z" fill="#b69cff" filter="url(#glow)"/><text x="530.6" y="399.4" text-anchor="end" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="11.6" fill="#9aa6e0">07 / 2026</text><text x="530.6" y="422.9" text-anchor="end" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="18.1" font-weight="800" fill="#f2f4ff">FB Account Detector</text><text x="530.6" y="436" text-anchor="end" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="11.6" fill="#b69cff">FastAPI · Gemini Vision</text>
+<circle cx="646" cy="450" r="22" fill="none" stroke="#ff6b9a" stroke-width="2" class="ping" style="animation-delay:3.15s"/><path d="M646 427.5C648.7 447.3 648.7 447.3 668.5 450C648.7 452.7 648.7 452.7 646 472.5C643.3 452.7 643.3 452.7 623.5 450C643.3 447.3 643.3 447.3 646 427.5Z" fill="#ff6b9a" filter="url(#glow)"/><text x="676" y="432" text-anchor="start" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12" fill="#9aa6e0">10 / 2026</text><text x="676" y="456.7" text-anchor="start" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="19" font-weight="800" fill="#ff6b9a">PhoneShopAI</text><text x="676" y="470.7" text-anchor="start" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12" fill="#ff6b9a">đồ án chuyên ngành · now</text>
+<text x="40" y="44" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="14" fill="#6b76b8">$ git log --since=2023 <tspan fill="#ff6b9a">| warp</tspan></text>
+<text x="1160" y="44" text-anchor="end" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="14" fill="#6b76b8">x · y · z · <tspan fill="#ffb86b" font-weight="700">t</tspan> — bay xuyên chiều thứ 4</text>
+</g><rect x="1" y="1" width="1198" height="498" rx="25" fill="none" stroke="#2f2f6e" stroke-width="2"/>
+</svg>

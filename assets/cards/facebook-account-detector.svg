@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="600" height="340" role="img">
+<style>
+.tw{animation:tw 3.2s ease-in-out infinite}@keyframes tw{0%,100%{opacity:.12}50%{opacity:.9}}
+.led{animation:blink 1.6s steps(2,start) infinite}@keyframes blink{50%{opacity:.2}}
+.bob{animation:bob 6s ease-in-out infinite}@keyframes bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+.spin{animation:spin 9s linear infinite;transform-box:fill-box;transform-origin:center}@keyframes spin{to{transform:rotate(360deg)}}
+.sweep{animation:sweep 5s ease-in-out infinite}@keyframes sweep{0%{transform:translateX(-200px)}60%,100%{transform:translateX(800px)}}</style>
+<defs><linearGradient id="cg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1a1a46"/><stop offset="1" stop-color="#0c0c22"/></linearGradient>
+<linearGradient id="edge" x1="0" x2="1"><stop offset="0" stop-color="#b69cff"/><stop offset="1" stop-color="#b69cff" stop-opacity=".15"/></linearGradient>
+<filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="14" y="14" width="584" height="324" rx="22" fill="#211c2e"/>
+<rect x="12" y="12" width="584" height="324" rx="22" fill="#282238"/>
+<rect x="10" y="10" width="584" height="324" rx="22" fill="#2f2942"/>
+<rect x="8" y="8" width="584" height="324" rx="22" fill="#372f4d"/>
+<rect x="6" y="6" width="584" height="324" rx="22" fill="#3e3557"/>
+<rect x="4" y="4" width="584" height="324" rx="22" fill="#453b61"/>
+<clipPath id="cc"><rect x="2" y="2" width="584" height="324" rx="22"/></clipPath>
+<g clip-path="url(#cc)"><rect x="2" y="2" width="584" height="324" fill="url(#cg)"/>
+<circle cx="514" cy="70" r="120" fill="#b69cff" opacity=".12"/>
+<g class="sweep"><rect x="0" y="0" width="60" height="340" fill="#fff" opacity=".04" transform="skewX(-20)"/></g></g>
+<rect x="2" y="2" width="584" height="324" rx="22" fill="none" stroke="url(#edge)" stroke-width="2"/>
+<g transform="translate(520 64)"><circle r="34" fill="none" stroke="#b69cff" stroke-opacity=".45" stroke-dasharray="4 6" class="spin"/><path d="M0 -20C2.4 -2.4 2.4 -2.4 20 0C2.4 2.4 2.4 2.4 0 20C-2.4 2.4 -2.4 2.4 -20 0C-2.4 -2.4 -2.4 -2.4 0 -20Z" fill="#b69cff" filter="url(#glow)" class="bob"/></g>
+<rect x="28" y="28" width="112" height="24" rx="12" fill="#b69cff" fill-opacity=".14" stroke="#b69cff" stroke-opacity=".6"/><text x="40" y="44.5" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12" font-weight="700" fill="#b69cff">AI · VISION</text>
+<text x="30.4" y="101" fill="#403759" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" text-anchor="start" >Facebook Account Detector</text>
+<text x="29.6" y="100" fill="#403759" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" text-anchor="start" >Facebook Account Detector</text>
+<text x="28.8" y="99" fill="#403759" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" text-anchor="start" >Facebook Account Detector</text>
+<text x="28" y="98" fill="#f4f5ff" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="30" font-weight="800" text-anchor="start" >Facebook Account Detector</text>
+<text x="28" y="128" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="15.5" font-weight="600" fill="#b69cff">Đánh giá rủi ro tài khoản bằng AI</text>
+<text x="28" y="162" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#b4bce8">Phân tích ảnh chụp trang cá nhân qua Gemini Vision hoặc URL công</text>
+<text x="28" y="183" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#b4bce8">khai qua Gemini URL Context. Thiếu API key thì trả 503 thay vì bịa</text>
+<text x="28" y="204" font-family="'Segoe UI', Inter, -apple-system, 'Helvetica Neue', Arial, sans-serif" font-size="14" fill="#b4bce8">kết quả.</text>
+<rect x="28" y="252" width="71.8" height="24" rx="7" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".16"/><text x="38" y="268.5" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12" fill="#d8dcff">FastAPI</text>
+<rect x="107.8" y="252" width="64.4" height="24" rx="7" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".16"/><text x="117.8" y="268.5" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12" fill="#d8dcff">Gemini</text>
+<rect x="180.2" y="252" width="94" height="24" rx="7" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".16"/><text x="190.2" y="268.5" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12" fill="#d8dcff">PostgreSQL</text>
+<rect x="282.2" y="252" width="57" height="24" rx="7" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".16"/><text x="292.2" y="268.5" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12" fill="#d8dcff">React</text>
+<rect x="347.2" y="252" width="79.2" height="24" rx="7" fill="#ffffff" fill-opacity=".05" stroke="#ffffff" stroke-opacity=".16"/><text x="357.2" y="268.5" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12" fill="#d8dcff">Tailwind</text>
+<line x1="28" y1="290" x2="558" y2="290" stroke="#ffffff" stroke-opacity=".08"/><circle cx="34" cy="309" r="5" fill="#b69cff"/><text x="46" y="313.5" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12.5" fill="#9aa6e0">Python · Pytest</text><text x="558" y="313.5" text-anchor="end" font-family="'JetBrains Mono', 'Cascadia Code', Consolas, Menlo, monospace" font-size="12.5" fill="#b69cff">view repo →</text>
+</svg>
